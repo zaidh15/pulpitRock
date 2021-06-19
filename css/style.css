@@ -25,7 +25,7 @@ nav{
     display: flex;
     width: 720px;
     justify-content: space-between;
-    margin-left: 400px;
+    margin-left: 730px;
     min-width: 550px;
 }
 
@@ -46,6 +46,7 @@ nav a{
     position: absolute;
     top: 50px;
     left: 100px;
+    cursor: pointer;
 }
 
 .container{
@@ -62,27 +63,33 @@ nav a{
 }
 
 .right{
-    flex: 1;
+    flex: 1.5;
     height: 100vh;
     display: flex;
     flex-direction: column;
     position: relative;
 }
 
-h1{
+.right h1{
     color: #FA5800;
-    font-family: PP Eiko;
+    font-family: "PP Eiko";
     font-size: 80px;
     font-weight: 800;
     letter-spacing: 3px;
     margin-bottom: 50px;
 }
 
-p{
+.right p{
     max-width: 500px;
     margin-bottom: 10px;
     font-size: 13px;
     line-height: 20px;
+}
+
+.right img{
+    position: absolute;
+    top: 18vh;
+    left: 70px;
 }
 
 .content-wrapper{
@@ -95,3 +102,4 @@ p{
     margin-left: 200px;
     padding-right: 120px;
 }
+
