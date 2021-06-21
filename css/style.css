@@ -20,28 +20,26 @@ header{
     padding: 0 20% 0 100px;
     height: 130px;
 }
-
-nav{
-    display: flex;
-    width: 720px;
-    justify-content: space-between;
-    margin-left: 730px;
-    min-width: 550px;
-}
-
-nav a{
-    color: #000;
-    text-decoration: none;
-    font-weight: 400px;
-    font-size: 15px;
-}
+    header nav{
+        display: flex;
+        width: 720px;
+        justify-content: space-between;
+        margin-left: 730px;
+        min-width: 550px;
+    }
+        header nav a{
+        color: #000;
+        text-decoration: none;
+        font-weight: 400px;
+        font-size: 15px;
+        }
 
 
 .logo{
     font-family: "PP Eiko";
     font-weight: 500;
     color: white;
-    font-size: 22px;
+    font-size: 26px;
     letter-spacing: 1px;
     position: absolute;
     top: 50px;
@@ -63,7 +61,7 @@ nav a{
 }
 
 .right{
-    flex: 1.5;
+    flex: 1;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -84,12 +82,6 @@ nav a{
     margin-bottom: 10px;
     font-size: 13px;
     line-height: 20px;
-}
-
-.right img{
-    position: absolute;
-    top: 18vh;
-    left: 70px;
 }
 
 .content-wrapper{
